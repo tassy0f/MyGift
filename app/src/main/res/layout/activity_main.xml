@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/macbook_1516041793" />
+
+    <TextView
+        android:text="Have a nice nastroeniya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/holo_orange_dark"
+
+        android:padding="20dp"/>
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to: terminal - E"
+        android:layout_above="@id/from"
+        android:layout_alignParentRight="true"
+        android:textSize="24dp"
+        android:fontFamily="cursive"
+
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/holo_orange_dark"/>
+    <TextView
+        android:id="@+id/from"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="from: BogDan-Roman!"
+
+        android:textSize="24dp"
+        android:fontFamily="cursive"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/holo_orange_dark"/>
+</RelativeLayout>
