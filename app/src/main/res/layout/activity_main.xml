@@ -12,7 +12,7 @@
         android:src="@drawable/macbook_1516041793" />
 
     <TextView
-        android:text="Have a nice nastroeniya"
+        android:text="Happy Birthday!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30dp"
@@ -24,7 +24,7 @@
         android:id="@+id/to"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="to: terminal - E"
+        android:text="to: my Mom!"
         android:layout_above="@id/from"
         android:layout_alignParentRight="true"
         android:textSize="24dp"
@@ -38,7 +38,7 @@
         android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="from: BogDan-Roman!"
+        android:text="from: Roman!"
 
         android:textSize="24dp"
         android:fontFamily="cursive"
